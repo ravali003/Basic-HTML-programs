@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login</title>
+<script>
+function openWin() {
+    window.open("list.html");
+}
+function openWin1() {
+    window.open("registration.html");
+}
+</script>
+</head>
+<body style="background-color:mistyrose;">
+
+<form action="insert1.php" method="post">
+<center><h1>LOGIN PAGE</h1><center>
+
+<left><label><b>username</b></label>
+<input type="text" placeholder="Enter username" name="username" required></left>
+<br><br>
+
+<left><label><b>password</b></label>
+<input type="text" placeholder="Enter password" name="password" required></left>
+<br><br>
+<br><br><br>
+<input type="button"value="login" onclick="openWin()">
+<input type="button"value="register" onclick="openWin1()">
+</form>
+</body>
+</html>
+
